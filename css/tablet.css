@@ -1,0 +1,116 @@
+@media only screen and (max-width: 1024px) {
+  body {
+    width: 768px;
+  }
+
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: 13px;
+  }
+
+  /* Thanh nav-bar */
+  .nav-content {
+    font-size: 8px;
+    padding: 4px 0px;
+    height: 30px;
+    width: 140px;
+  }
+  /* Thông tin trên thanh Navbar */
+  .info {
+    width: 30px;
+    height: 30px;
+  }
+  .info-content {
+    display: none;
+  }
+
+  /* Mục tiêu, thông tin */
+  .section-title {
+    font-size: 20px;
+  }
+  .list-group {
+    font-size: 15px;
+  }
+  /* Section số 2 */
+  /* Điều chỉnh lại grid */
+  .section-2 {
+    grid-template-columns: repeat(2, 300px);
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 20px 60px;
+  }
+
+  /*Sắp xếp vị trí của các ô  */
+  .kinh-nghiem {
+    grid-row: 1 / span 2;
+  }
+  .hoat-dong {
+    grid-row: span 2;
+  }
+  .hoc-van {
+    grid-row: 2 / span 2;
+  }
+
+  .ky-nang {
+    grid-row: 3 / span 2;
+  }
+  .so-thich {
+    grid-row: span 2;
+  }
+  .ngon-ngu {
+    grid-row: span 2;
+  }
+  /* Điều chỉnh lại dấu chấm xanh */
+  .time::before {
+    left: 0px;
+    top: 25px;
+  }
+  .icon i {
+    width: 55px;
+    height: 55px;
+  }
+  /* Căn chỉnh khoảng cho nội dung trong box */
+  .section-content {
+    padding: 20px 0px;
+  }
+
+  /* Chứng chỉ chi */
+
+  /* Flex chứng chỉ lại thành dạng cột */
+  .col {
+    flex-direction: column;
+  }
+  /* Căn chỉnh lại nội dung của Chứng chỉ */
+  .certificate-content {
+    padding: 30px 15px;
+  }
+  .img-certificate {
+    padding: 0px 10px;
+    height: 100px;
+    width: 300px;
+  }
+  .certificate-box {
+    margin-left: 13px;
+    width: 768px;
+  }
+
+  /* Điều chỉnh lại chiều dài cho grid */
+  .grid-1 {
+    grid-template-columns: 325px 1fr;
+  }
+  /* Section số 3, Dự án */
+  .section-3 {
+    width: 700px;
+    padding: 20px 60px;
+  }
+  /* Footer */
+  .footer i {
+    font-size: 50px;
+  }
+  .mxh {
+    padding: 26px 0px;
+  }
+}

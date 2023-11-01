@@ -1,0 +1,200 @@
+/* Setup tổng */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-align: justify;
+  font-family: sans-serif;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover,
+a:active {
+  color: #020393;
+}
+i {
+  color: #199cdb;
+}
+
+/* Hình ảnh banner */
+.img {
+  position: relative;
+}
+/* Thông tin trên banner */
+#banner {
+  position: absolute;
+  top: 200px;
+  left: 400px;
+  text-align: center;
+  color: white;
+}
+#banner span {
+  color: rgb(176, 165, 165);
+}
+
+/* Thanh Navbar */
+.nav-content {
+  height: 80px;
+  width: 200px;
+  padding: 30px 10px;
+  /* font-size: 14px; */
+}
+.info {
+  height: 80px;
+  width: 300px;
+  padding: 0px 10px;
+}
+.nav-bar {
+  position: relative;
+}
+.avatar {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border: 10px solid #c7d0d0;
+  border-radius: 50%;
+  top: -80px;
+}
+
+/* Mục tiêu nghề nghiêp */
+.box-content {
+  width: 735px;
+  padding: 40px;
+}
+.section-title {
+  margin: 10px;
+}
+
+/* Thông tin cá nhân */
+.list-group {
+  list-style: none;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Section số 2 */
+.section-2 {
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  grid-template-rows: 1fr 1fr;
+  margin: auto;
+  padding: 30px 50px;
+  width: 1170px;
+}
+/* Kích thước Icon hàng trên cùng */
+.ic-ngang {
+  font-size: 50px;
+}
+/* Set up các box của section số 2 */
+.box-2 {
+  border: solid rgb(218, 213, 213) 1px;
+}
+/* Ẩn nút View more */
+.view-more {
+  display: none;
+}
+/* Hiện view more khi di chuột qua */
+.box-2:hover .view-more {
+  display: block;
+}
+
+/* Kinh nghiệm, Học vấn, Hoạt động */
+/* Dấu chấm trước thời gian */
+
+.time::before {
+  content: "";
+  background-color: #199cdb;
+  border: 2px solid #199cdb;
+  border-radius: 50%;
+  width: 7px;
+  height: 7px;
+  left: 0px;
+  top: 8px;
+  position: absolute;
+}
+.section-content {
+  position: relative;
+}
+
+/* Sở thích */
+/* Vòng tròn bao quanh Icon */
+.icon i {
+  content: "";
+  border: 2px solid #199cdb;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+/* Điều chỉnh chữ của icon */
+.game,
+.music {
+  margin-left: -8px;
+}
+/* Ngôn ngữ, Kỹ Năng */
+/* Thanh thông tin  */
+.m {
+  background: #199cdb;
+  display: inline-block;
+  height: 4px;
+  margin-right: 10px;
+  width: 50px;
+}
+.a {
+  background: #777781;
+  display: inline-block;
+  height: 4px;
+  margin-right: 10px;
+  width: 50px;
+}
+
+/* Chứng chỉ */
+.web-certificate {
+  border-right: solid 2px #777781;
+  border-bottom: solid 2px #777781;
+}
+.java-certificate {
+  border-bottom: solid 2px #777781;
+}
+.grid-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.certificate {
+  padding-left: 30px;
+}
+
+/* Dự án */
+.table {
+  height: 250px;
+}
+.column-1 {
+  width: 30%;
+  padding-left: 10px;
+}
+.section-3 {
+  width: 1170px;
+  margin: auto;
+  padding: 0px 50px;
+}
+
+/* footer */
+.footer {
+  height: 100px;
+}
+.font {
+  font-size: 16px;
+  font-weight: bold;
+}
+.footer i {
+  font-size: 50px;
+}
+.mxh {
+  padding: 30px 0px;
+}

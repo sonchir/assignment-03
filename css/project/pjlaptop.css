@@ -1,0 +1,25 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-align: justify;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+}
+
+.acv {
+  border: solid 2px black;
+}
+.abc,
+.goal {
+  border-bottom: solid 2px #020392;
+}
+.noi-dung {
+  padding: 0px 20px;
+}

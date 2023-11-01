@@ -1,0 +1,27 @@
+@media only screen and (max-width: 1024px) {
+  body {
+    width: 768px;
+  }
+  .grid {
+    grid-template-columns: 670px;
+  }
+  .item-4 {
+    grid-row: 2;
+  }
+  .item-5 {
+    grid-row: 4;
+  }
+  .d-flex {
+    flex-direction: column;
+  }
+  .in,
+  .out {
+    padding: auto;
+  }
+  .bi {
+    padding: 0px 50px;
+  }
+  .icon {
+    padding-left: 300px;
+  }
+}
